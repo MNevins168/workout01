@@ -13,7 +13,7 @@ Input: Data of the five basketball players
 Output: Shot data to be visualized
 
 ```{r}
-library(dplyr)
+library(dplyr, warn.conflicts = FALSE)
 library(ggplot2)
 library(readr)
 shots_data <- data.frame()
